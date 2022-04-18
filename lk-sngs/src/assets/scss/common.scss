@@ -1,0 +1,35 @@
+// @import url(./variables.scss);
+
+//font 
+@font-face {
+	font-family: 'Segoe UI'; 
+	src: url(../fonts/Segoe\ UI.ttf); 
+}
+
+//common
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-decoration: none;
+}
+
+.lk-container {
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.--display-flex {
+  display: flex;
+}
